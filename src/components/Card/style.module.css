@@ -1,0 +1,28 @@
+.Card{
+    background-color: rgb(47, 47, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 30%;
+    border-radius: 20px;
+}
+
+.Card:hover{
+    filter: drop-shadow(0 0 1em rgba(255,255,255,0.5));
+    transform: scale(1.05);
+}
+
+.Title{
+    color: white;
+    font-style: italic;
+    font-size: medium;
+}
+
+.Description{
+    color: white;
+    font-style: italic;
+    font-size: small;
+}
