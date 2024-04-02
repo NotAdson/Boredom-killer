@@ -1,0 +1,9 @@
+:root {
+    background-color: rgb(36, 36, 36);
+}
+
+.setCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
