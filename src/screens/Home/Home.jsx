@@ -10,23 +10,23 @@ export default function Home() {
   const [cards, setCards] = useState([])
 
   async function getGames(){
-    const response = await fetch("http://localhost:8009/games");
+    const response = await fetch("https://culturevault.onrender.com/games");
     const data = await response.json();
     setCards(data.list)
   }
   
   async function getMovies(){
-    const response = await fetch("http://localhost:8009/movies");
+    const response = await fetch("https://culturevault.onrender.com/movies");
     const data = await response.json();
     setCards(data.list)
   }
   
   async function getBooks(){
-    const response = await fetch("http://localhost:8009/books");
+    const response = await fetch("https://culturevault.onrender.com/books");
     const data = await response.json();
     setCards(data.list)
   }
-  
+
   return (
     <>
         <div align="center" >
@@ -34,9 +34,9 @@ export default function Home() {
             <MediaTypeButton imagePath={bookLogo} handleFunction={getBooks} />
             <MediaTypeButton imagePath={film} handleFunction={getMovies} />
         </div>
-        <div>
-          {cards.map(card =>(
-            <Card title={card.title} description={card.description}/>
+        <div className='setCards'>
+          {cards.map((card) =>(
+            <Card key={card.id} title={card.name} description={card.description}/>
           ))}
         </div>
     </>
