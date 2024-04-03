@@ -1,4 +1,5 @@
 # Boredom Killer
+![License](https://img.shields.io/badge/License-Apache-blue.svg)
 
 ## Description
 It's a webpage made to show recomendations of books, movies, games to increase your cultural bagage and fill your free time with engaging experiences.
@@ -27,4 +28,11 @@ After installing the project, use the following command to run the project:
 So, you must be able to look at the project in your browser.
 
 ## Built With
+- [React](https://github.com/facebook/react)
+- [Vite](https://github.com/vitejs/vite)
+- [Javascript](https://pt.wikipedia.org/wiki/Javascript)
+- [NPM](https://github.com/npm/cli)
+- [Culture Vault](https://github.com/NotAdson/CultureVault)
+
 ## License
+This project is licensed under the terms of the [Apache License 2.0](LICENSE.md).
