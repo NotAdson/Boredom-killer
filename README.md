@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/License-Apache-blue.svg)
 
 ## Description
-It's a webpage made to show recomendations of books, movies, games to increase your cultural bagage and fill your free time with engaging experiences.
+It's a webpage made to show recommendations of books, movies, games to increase your cultural baggage and fill your free time with engaging experiences.
 
 ## Table of contents
 - [Getting started](#getting-started)
