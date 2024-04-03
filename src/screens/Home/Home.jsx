@@ -4,27 +4,28 @@ import bookLogo from '../../assets/book.svg'
 import film from '../../assets/film.svg'
 import MediaTypeButton from '../../components/MediaTypeButtons/MediaTypeButton'
 import Card from '../../components/Card/Card'
+import axios from 'axios'
 import './Home.css'
 
 export default function Home() {
   const [cards, setCards] = useState([])
 
   async function getGames(){
-    const response = await fetch("https://culturevault.onrender.com/games");
-    const data = await response.json();
-    setCards(data.list)
+    axios.get("https://culturevault.onrender.com/games").then(response => {
+      setCards(response.data.list)
+    })
   }
   
   async function getMovies(){
-    const response = await fetch("https://culturevault.onrender.com/movies");
-    const data = await response.json();
-    setCards(data.list)
+    axios.get("https://culturevault.onrender.com/movies").then(response => {
+    setCards(response.data.list)
+    })
   }
   
   async function getBooks(){
-    const response = await fetch("https://culturevault.onrender.com/books");
-    const data = await response.json();
-    setCards(data.list)
+    axios.get("https://culturevault.onrender.com/books").then(response => {
+      setCards(response.data.list)
+    })
   }
 
   return (
