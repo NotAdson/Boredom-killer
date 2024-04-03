@@ -1,8 +1,38 @@
-# React + Vite
+# Boredom Killer
+![License](https://img.shields.io/badge/License-Apache-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+It's a webpage made to show recomendations of books, movies, games to increase your cultural bagage and fill your free time with engaging experiences.
 
-Currently, two official plugins are available:
+## Table of contents
+- [Getting started](#getting-started)
+- [Built With](#built-with)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
+There are a few steps you can follow to run the webpage in your machine.
+
+### Prerequisites
+You need to have the following softwares installed:
+- **NPM:** it's a package manager for javascript. Manages code dependencies for your project.
+- **Nodejs:** javaScript runtime for server-side development.
+
+### Installing
+Here's a breakdown of how you can install the project in your computer:
+1. **Clone:** clone the repository.
+2. **Install dependencies:** you can install the dependencies by running the command `npm install` in the project's directory.
+
+### Running the Project
+After installing the project, use the following command to run the project:
+  `npm run dev`.
+So, you must be able to look at the project in your browser.
+
+## Built With
+- [React](https://github.com/facebook/react)
+- [Vite](https://github.com/vitejs/vite)
+- [Javascript](https://pt.wikipedia.org/wiki/Javascript)
+- [NPM](https://github.com/npm/cli)
+- [Culture Vault](https://github.com/NotAdson/CultureVault)
+
+## License
+This project is licensed under the terms of the [Apache License 2.0](LICENSE.md).
