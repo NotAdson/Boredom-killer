@@ -1,6 +1,7 @@
 # Boredom Killer
 ![License](https://img.shields.io/badge/License-Apache-blue.svg)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/posts/adson-dev_hello-recently-i-made-a-simple-project-activity-7181412085841412096-_jFJ?utm_source=share&utm_medium=member_desktop)
+![ Layout ](webpageLayout.png)
 
 ## Description
 It's a webpage made to show recommendations of books, movies, games to increase your cultural baggage and fill your free time with engaging experiences.
