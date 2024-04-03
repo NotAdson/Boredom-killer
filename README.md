@@ -34,6 +34,7 @@ So, you must be able to look at the project in your browser.
 - [NPM](https://github.com/npm/cli)
 - [Culture Vault](https://github.com/NotAdson/CultureVault)
 - [Node.js](https://nodejs.org/en)
+- [Axios](https://www.npmjs.com/package/axios)
 
 ## License
 This project is licensed under the terms of the [Apache License 2.0](LICENSE.md).
