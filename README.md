@@ -14,8 +14,8 @@ There are a few steps you can follow to run the webpage in your machine.
 
 ### Prerequisites
 You need to have the following softwares installed:
-- **NPM:** it's a package manager for javascript. Manages code dependencies for your project.
-- **Nodejs:** javaScript runtime for server-side development.
+- **NPM:** It's a package manager for javascript. Manages code dependencies for your project.
+- **Nodejs:** JavaScript runtime for server-side development.
 
 ### Installing
 Here's a breakdown of how you can install the project in your computer:
@@ -33,6 +33,7 @@ So, you must be able to look at the project in your browser.
 - [Javascript](https://pt.wikipedia.org/wiki/Javascript)
 - [NPM](https://github.com/npm/cli)
 - [Culture Vault](https://github.com/NotAdson/CultureVault)
+- [Node.js](https://nodejs.org/en)
 
 ## License
 This project is licensed under the terms of the [Apache License 2.0](LICENSE.md).
